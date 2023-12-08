@@ -1,0 +1,7 @@
+def prime_checker(number):
+  prime_int_1 = int( n % n == 1)
+  prime_int_2 = int(n % 1 == n)
+  if prime_int_1 and prime_int_2:
+    print("It's a prime number.")
+  else:
+    print("It's not a prime number.")
